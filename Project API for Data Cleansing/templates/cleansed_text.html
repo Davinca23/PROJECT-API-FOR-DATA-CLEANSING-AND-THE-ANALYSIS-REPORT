@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cleansed Text</title>
+  </head>
+  <body>
+    <h1>Cleansed Text</h1>
+    <p>{{ text | safe }}</p>
+    {% for line in data %}
+    <p>{{ line }}</p>
+  {% endfor %}
+  </body>
+</html>
